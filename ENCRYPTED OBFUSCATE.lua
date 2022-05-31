@@ -139,11 +139,11 @@ local shuang='"'..".._G['str".."ing']['ch".."ar'](_G['ton".."umber']('010'))..".
 local data=string.gsub(string.gsub(string.gsub(string.gsub(data,"%]%.address=",'][tostr'..'ing("address",nil)]='),"%]%.flags=",'][tostri'..'ng("flags",nil)]='),"%]%.value=",'][tostr'..'ing("value")]='),"%]%.freeze=",'][tostr'..'ing("freeze")]=')
 if gg.toast("[ Copyright 2022 ] ")==1 then
 for k in string.gmatch(data,"tr".."ue") do
-if load(string.gsub(data,k,'ass'..'ert(pc'..'all(function(_) return "LuaOnlyTris" end))',1)) then
-data=string.gsub(data,k,'asse'..'rt(pc'..'all(function(_) return "LuaOnlyTris" end))',1)
+if load(string.gsub(data,k,'ass'..'ert(pc'..'all(function(_) return "Luaquenproject" end))',1)) then
+data=string.gsub(data,k,'asse'..'rt(pc'..'all(function(_) return "Luaquenproject" end))',1)
 else
-if load(string.gsub(data,k,"ass".."ert(pca".."ll(function(_) return 'LuaOnlyTris' end))",1)) then
-data=string.gsub(data,k,"asser".."t(pc".."all(function(_) return 'LuaOnlyTris' end))",1)
+if load(string.gsub(data,k,"ass".."ert(pca".."ll(function(_) return 'Luaquenproject' end))",1)) then
+data=string.gsub(data,k,"asser".."t(pc".."all(function(_) return 'Luaquenproject' end))",1)
 end
 end
 end
@@ -1491,7 +1491,7 @@ local __ =([=[
  
  
 ╟═════════════⋆✪⋆═════════════╢
-  
+
  
  ]=])
  gg.setVisible(true)
